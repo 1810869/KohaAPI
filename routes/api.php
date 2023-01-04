@@ -35,8 +35,6 @@ Route::group(['middleware' => ['json.response']], function () {
     Route::get('account/{id}', 'App\Http\Controllers\PostController@accountlines');
     //POST: Update record
     Route::post('update/{id}/{columnname}/{value}', 'App\Http\Controllers\PostController@updateBorrower'); 
-    //POST: Delete a record
-    Route::post('delete/{id}', 'App\Http\Controllers\PostController@deleteBorrower');
 
     
 });

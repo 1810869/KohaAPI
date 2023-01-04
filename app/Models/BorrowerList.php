@@ -16,4 +16,6 @@ class BorrowerList extends Model
 
     protected $primarykey = 'borrowernumber';
 
+    
+
 }

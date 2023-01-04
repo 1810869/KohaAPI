@@ -11,7 +11,5 @@ class BorrowerAttrib extends Model
 
     protected $table = 'borrower_attributes';
 
-    public $fillable = [
 
-    ];
 }
